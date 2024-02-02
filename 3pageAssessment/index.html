@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Your Website</title>
+</head>
+
+<body>
+  <header>
+    <h1>Very Serious Webpage</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Page 1</a></li>        
+        <li><a href="page2.html">Page 2</a></li>
+        <li><a href="page3.html">Page 3</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>These 3 pages are very serious, please take them seriously.</p>
+      <img class="w-100" src="images/SeriousFaceEmoji.png" alt="Very Serious Image">
+    </section>
+
+    <section>
+      <h2>Our Services</h2>
+      <table>
+        <tr>
+          <th>Service</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Service 1</td>
+          <td>$1000</td>
+        </tr>
+        <tr>
+          <td>Service 2</td>
+          <td>$15000</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <!-- Inline Styling for the footer -->
+    <p style="font-style: italic;">&copy; 2023 Your Website. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

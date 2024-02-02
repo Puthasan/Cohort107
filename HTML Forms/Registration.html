@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="logo">
+      <img
+        src="images/person-circle.svg"
+        atl="Logo"
+        width="100px"
+        height="100px"
+      />
+    </div>
+
+    <h2>Register Page</h2>
+
+    <table>
+      <form action="#">
+        <tr>
+          <td>
+            <label for="userName">User Name</label>
+          </td>
+          <td>
+            <input type="text" name="userName" id="userName" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="email">Email</label>
+          </td>
+          <td>
+            <input type="email" name="email" id="email" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="password">Password</label>
+          </td>
+          <td>
+            <div class="password-container">
+              <input type="password" name="password" id="password" />
+              <button id="show-password" type="button">
+                <i class="fa fa-eye"></i>
+              </button>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="confirmPassword">Confirm Password</label>
+          </td>
+          <td>
+            <div class="password-container">
+              <input
+                type="password"
+                name="confirmPassword"
+                id="password"
+                required
+              />
+              <button id="show-password" type="button">
+                <i class="fa fa-eye"></i>
+              </button>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label>Gender</label>
+          </td>
+          <td>
+            <input type="radio" name="gender" value="male" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female" />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="other" id="other" />
+            <label for="other">Other</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="Register" />
+          </td>
+        </tr>
+      </form>
+    </table>
+
+    <!-- "Forgot Username/Password" button -->
+    <div class="forgot-button">
+      <a href="#">Forgot Username/Password</a>
+    </div>
+
+    <!-- Change the label to "Already have an account?" and the link text to "Login" -->
+    <div class="create-user">
+      <p>Already have an account? <a href="#">Login</a></p>
+    </div>
+  </body>
+</html>

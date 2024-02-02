@@ -1,0 +1,62 @@
+body {
+    background-color: aquamarine;
+
+}
+h1 {
+    font-size: 64px;
+    background-color: lightcoral;
+    padding: 2px;
+    color: white;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+    
+}
+section h2 {
+    font-size: 24px;
+    padding: 2px;
+    border: 2px;
+    border-color: black;
+    background-color: lightcoral;
+    color: white;
+}
+section {
+    text-align: center;
+    font-size: 18;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  table {
+    text-align: left;
+    border: 5px solid lightcoral;
+ }
+ 
+ th, td {
+    border: 1px solid black;
+ }
+ 
+ td:hover {
+    background-color: lightcoral;
+    color: white;
+ }
+ 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>#title#</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>#title#</h1>
+      <div>#content#</div>
+
+      <div>
+        <img src="http://localhost:3000/download" width="500px" height="500px" />
+        <img src="/3magical-flex-words.png" width="500px" height="500px" />
+      </div>
+
+      <a href= "http://localhost:3000/download">
+        <button>Click here to download</button>
+      </a>
+
+    </div>
+  </body>
+</html>

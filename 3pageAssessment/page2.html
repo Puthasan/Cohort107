@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Your Website - Page 2</title>
+  <style>
+    /* Internal styling for this specific page */
+    body {
+      background-color: #e6f7ff; /* Light blue background */
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Some More Serious Stuff</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="page3.html">Page 3</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About this page</h2>
+      <p>What i looked like working on this page..</p>
+      <img class="w-100" src="images/Rick.jpg" alt="Another placeholder image">
+    </section>
+
+    <section>
+      <h2>Additional Information</h2>
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Feature 1</td>
+          <td>Information about feature 1</td>
+        </tr>
+        <tr>
+          <td>Feature 2</td>
+          <td>Information about feature 2</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Feedback Form</h2>
+      <form action="submit_feedback.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Dropdown Menu</h2>
+      <select>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+    </section>
+  </main>
+
+  <footer>
+    <p style="font-style: italic;">&copy; 2023 Your Website. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
