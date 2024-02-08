@@ -36,10 +36,10 @@ function fetchAndRender() {
   const inputElement = document.getElementById('pokemonId');
   const pokemonId = inputElement.value;
 
-  if (pokemonId >= 1 && pokemonId <= 151) {
+  if (pokemonId >= 1 && pokemonId <= 386) {
       clearPokedex();
       renderPokemonCard(pokemonId);
   } else {
-      alert('Please enter a valid Pokémon ID (1-151).');
+      alert('Please enter a valid Pokémon ID (1-386).');
   }
 }
